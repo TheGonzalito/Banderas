@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+
+body {
+    background-image: url("imgs/fondo_mundo.webp");
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+}
+
+#contenedorimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+#pregunta {
+    text-align: center;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 30px;
+}
