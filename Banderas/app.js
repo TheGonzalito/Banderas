@@ -87,10 +87,11 @@ function VerificarCorrecta (arr) {
     for (let i=0; i < arr.length; i++){
         arr[i].addEventListener('click', function () {
             if (this.getAttribute('src').includes(banderaAleatoria)){
-                console.log("Es la correcta");
+                alert("Es la correcta");
+                location.reload();
             }
             else {
-                console.log("No es la correcta");
+                alert("No es la correcta");
             }
         })
     }
